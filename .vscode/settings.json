@@ -24,7 +24,7 @@
     ],
     "python.linting.lintOnSave": true,
     // formatter
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "none",
     "editor.formatOnSave": true,
     // ルーラー（89文字に縦線を引く）
     "editor.rulers": [
@@ -41,4 +41,7 @@
     // previewモード
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
 }
